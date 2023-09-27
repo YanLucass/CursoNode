@@ -1,0 +1,17 @@
+<h1>Livro filtrado</h1>
+
+<div id="book-page">
+    <a href="/books">Voltar para os livros</a>
+    <div class="container">
+        {{#if ok}}
+
+            <h1>{{book.title}}</h1>
+            <p>Esse livro tem {{book.pageqty}} páginas </p>  
+
+        {{else}}
+
+            <p>Nenhum livro encontrado com esse ID</p>
+
+        {{/if}}        
+    </div>
+</div>

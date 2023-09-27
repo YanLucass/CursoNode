@@ -1,0 +1,22 @@
+<h1>Olá handleBars</h1>
+
+
+{{#if approved}}
+
+   <p>Parabéns seu cadastro foi aprovado!</p>
+
+   {{else}}
+   <p>Cadastro não foi aprovado!</p>
+{{/if}}
+
+
+<p>O nome do usuario envidao pelo backend é {{user.name}}  {{user.surName}} ele tem {{user.age}}
+</p>
+
+<h2>{{palavraVariavel}}</h2>
+
+{{#if auth}}
+
+   <p>Você está logado clique aqui <a href="/dashboard">Clique Aqui</a>  para acessar area dos membros </p> 
+
+{{/if}}

@@ -1,0 +1,16 @@
+
+<script src="/js/checkBook.js"></script>
+<h1>Cadastre seu livro!</h1>
+<form action="/books/insertbook" method="POST" class="form">
+    <div class="form-control">
+        <label for="title">Titulo</label>
+        <input type="text" name="title" placeholder="Digite o titulo">
+    </div>
+
+    <div class="form-control">
+        <label for="pageqty">Numero de páginas Paginas</label>
+        <input type="number" name="pageqty" placeholder="Quantas páginas o livro tem?">
+    </div>
+
+    <input type="submit" value="Cadastrar">
+</form>
