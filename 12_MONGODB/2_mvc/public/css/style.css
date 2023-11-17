@@ -1,0 +1,46 @@
+:root {
+    --vermelho:#b30a0a;
+}
+
+
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+/* NAVBAR */
+#logo img {
+    height: 40px;
+}
+
+#navbar {
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    /* flex jogar um do lado o outro */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6982d;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    margin-left: 1em;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    transition: .5s;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    color: #f6982d;
+}

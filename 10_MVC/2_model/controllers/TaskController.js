@@ -13,12 +13,6 @@ module.exports = class TaskController {
     res.render('tasks/all')
   }
 
-  static async createTaskSave(req, res) {
-
-     res.send('oii')
-
-    }
-
 
 
 }
